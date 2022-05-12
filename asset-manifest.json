@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/waitlist/static/css/main.7552db5b.css",
+    "main.js": "/waitlist/static/js/main.bf6500b5.js",
+    "index.html": "/waitlist/index.html",
+    "main.7552db5b.css.map": "/waitlist/static/css/main.7552db5b.css.map",
+    "main.bf6500b5.js.map": "/waitlist/static/js/main.bf6500b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7552db5b.css",
+    "static/js/main.bf6500b5.js"
+  ]
+}
