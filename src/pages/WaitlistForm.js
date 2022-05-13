@@ -24,7 +24,7 @@ function WaitlistForm() {
         e.preventDefault();
         const validate = new WaitlistValidation(formData);
         if (!await validate.validate()) return;
-        addUser(formData);
+        addUser({ ...formData, tel: await validate.validateTel() });
         navigate("/");
         alert("Successfully added to the waitlist!");
     };
